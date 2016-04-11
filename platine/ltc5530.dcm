@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC5530
+D power detector
+K power detector
+$ENDCMP
+#
+#End Doc Library
