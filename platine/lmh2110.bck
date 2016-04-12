@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMH2110
+D power detector 50MHz to 8GHz
+$ENDCMP
+#
+#End Doc Library
