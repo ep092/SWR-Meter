@@ -1,4 +1,4 @@
-update=Fr 15 Apr 2016 02:10:26 CEST
+update=Fr 15 Apr 2016 18:34:29 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -63,3 +63,4 @@ LibName31=ltc5530
 LibName32=/home/toni/Dropbox/kicad sync/kicad/library_toni/library/library_toni_shematic_kicad/toni
 LibName33=lmh2110
 LibName34=/home/toni/git/kicad/PhilippsKicadBauteile/Schaltplansymbole/stm32
+LibName35=/home/toni/git/kicad/PhilippsKicadBauteile/Schaltplansymbole/prog_sockets
