@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/toni/git/kicad/SWR-Meter/platine/swr_meter.sch)
-    (date "Fr 15 Apr 2016 03:03:26 CEST")
+    (date "Fr 15 Apr 2016 14:14:35 CEST")
     (tool "Eeschema 4.0.2-1.fc23-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -47,6 +47,7 @@
       (tstamp 570D77A5))
     (comp (ref C5)
       (value 100pF)
+      (footprint Capacitors_SMD:C_0603)
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 570D7A89))
@@ -58,6 +59,7 @@
       (tstamp 570D7DEA))
     (comp (ref C1)
       (value 39pF)
+      (footprint Capacitors_SMD:C_0603)
       (libsource (lib device) (part C))
       (sheetpath (names /) (tstamps /))
       (tstamp 570D85BB))
