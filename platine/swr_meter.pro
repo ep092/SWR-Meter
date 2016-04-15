@@ -1,4 +1,4 @@
-update=Mi 13 Apr 2016 00:18:55 CEST
+update=Fr 15 Apr 2016 02:10:26 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=cp0x0xx5425xntr_directional_coupler
 LibName31=ltc5530
 LibName32=/home/toni/Dropbox/kicad sync/kicad/library_toni/library/library_toni_shematic_kicad/toni
 LibName33=lmh2110
+LibName34=/home/toni/git/kicad/PhilippsKicadBauteile/Schaltplansymbole/stm32
