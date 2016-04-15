@@ -587,10 +587,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 4600 7450 4600
 Wire Wire Line
-	8950 4400 9300 4400
-Wire Wire Line
-	8950 4600 9300 4600
-Wire Wire Line
 	8950 4700 9300 4700
 Wire Wire Line
 	8950 4800 9300 4800
@@ -600,10 +596,6 @@ Text Label 7450 4500 0    60   ~ 0
 tck
 Text Label 7450 4600 0    60   ~ 0
 tms
-Text Label 9300 4400 0    60   ~ 0
-tdo
-Text Label 9300 4600 0    60   ~ 0
-tdi
 Text Label 9300 4700 0    60   ~ 0
 u1_rx
 Text Label 9300 4800 0    60   ~ 0
@@ -611,14 +603,10 @@ u1_tx
 NoConn ~ 8950 4500
 Text Label 1400 4100 2    60   ~ 0
 reset
-Text Label 6800 5100 0    60   ~ 0
-tdo
 Text Label 6500 6700 0    60   ~ 0
 tms
 Text Label 6500 6800 0    60   ~ 0
 tck
-Text Label 6800 5200 0    60   ~ 0
-tdi
 Text Label 6500 6400 0    60   ~ 0
 u1_rx
 Text Label 6500 6300 0    60   ~ 0
@@ -741,4 +729,38 @@ Wire Wire Line
 Wire Wire Line
 	6550 5500 6350 5500
 Connection ~ 6850 2150
+NoConn ~ 8950 4400
+NoConn ~ 8950 4600
+$Comp
+L RESONATEUR Y?
+U 1 1 57115A49
+P 1000 5250
+F 0 "Y?" H 1020 5450 60  0000 C CNN
+F 1 "RESONATEUR" H 1430 5050 60  0000 C CNN
+F 2 "" H 1000 5250 60  0000 C CNN
+F 3 "" H 1000 5250 60  0000 C CNN
+	1    1000 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5200 1550 5200
+Wire Wire Line
+	700  5200 700  4950
+Wire Wire Line
+	700  4950 1350 4950
+Wire Wire Line
+	1350 4950 1350 5100
+Wire Wire Line
+	1350 5100 1550 5100
+$Comp
+L GND #PWR?
+U 1 1 57115E0A
+P 1000 5500
+F 0 "#PWR?" H 1000 5250 50  0001 C CNN
+F 1 "GND" H 1000 5350 50  0000 C CNN
+F 2 "" H 1000 5500 50  0000 C CNN
+F 3 "" H 1000 5500 50  0000 C CNN
+	1    1000 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
